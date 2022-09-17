@@ -118,7 +118,7 @@ form.addEventListener('submit', function(e){
     }
 });
 
-const debounce = (fn, delay = 1) => {
+const debounce = (fn, delay = 500) => {
     let timeoutId;
     return (...args) => {
         if (timeoutId) {
